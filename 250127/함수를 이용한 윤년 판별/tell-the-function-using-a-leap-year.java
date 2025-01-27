@@ -6,14 +6,14 @@ public class Main {
 
         int y = s.nextInt();
         
-        boolean result = true;
+        boolean result = false;
 
         if(y % 4 == 0){
             if(y % 100 == 0 && y % 400 != 0){
-                result = false;
                 System.out.println(result);
                 return;
             }
+            result = true;
             System.out.println(result);
             return;
         }
