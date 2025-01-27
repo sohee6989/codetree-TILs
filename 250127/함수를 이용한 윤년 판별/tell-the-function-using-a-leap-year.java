@@ -17,6 +17,7 @@ public class Main {
             System.out.println(result);
             return;
         }
+        System.out.println(result);
 
     }
 }
